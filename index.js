@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'frontend')));
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Rohit2002',  // Ensure this matches your actual password
+    password: 'Rohit',  // Ensure this matches your actual password
     database: 'hospital_db'
 });
 
